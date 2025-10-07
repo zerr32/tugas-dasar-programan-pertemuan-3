@@ -1,10 +1,13 @@
+#input
 nama = input("masukan nama pembeli:")
 barang = input("masukan nama barang:")
 harga = int(input("masukan harga sepatu(Rp):"))
 uang = int(input("masukan uang bayar(Rp):"))
 
+#proses
 kembalian = uang - harga
 
+#output
 print("=================================")
 print("          Struk barang           ")
 print("=================================")
